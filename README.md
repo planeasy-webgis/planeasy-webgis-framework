@@ -13,14 +13,11 @@
 
 </div>
 
-**PlanEasy** is a modular and cloud-based **WebGIS framework** for spatial data analysis, visualization, and participatory research.  
-These guidelines provide the **official documentation, architectural overview, and methodological references** for projects and research activities based on the PlanEasy platform.
-
 ---
 
 ## 🧭 Overview
 
-PlanEasy facilitates the **management, integration, and visualization** of spatial and mobility data for scientific, institutional, and planning purposes.  
+**PlanEasy** facilitates the **management, integration, and visualization** of spatial and mobility data for scientific, institutional, and planning purposes.  
 It combines mapping, analytics, and user-interaction components to support evidence-based decision-making in fields such as:
 
 - transport planning and accessibility analysis  
@@ -28,15 +25,10 @@ It combines mapping, analytics, and user-interaction components to support evide
 - mobility behaviour and survey integration  
 - environmental and socio-demographic studies  
 
-PlanEasy operates as a flexible WebGIS environment accessible directly from a web browser, combining **interactive maps**, **real-time databases**, and **analytical dashboards**.
+PlanEasy operates as a **flexible WebGIS environment** accessible directly from any web browser, combining **interactive maps**, **real-time databases**, and **analytical dashboards** to provide an end-to-end system for spatial and participatory research.
 
----
-
-## 🧩 Structure of this repository
-
-| Folder | Description |
-|---------|-------------| 
-| [docs/](./docs/README.md) | Technical guidelines and methodological notes |
+> These guidelines describe the **core architecture**, **data standards**, and **ethical principles** underpinning PlanEasy.  
+> They are intended for developers, researchers, and institutions seeking to deploy or replicate PlanEasy-based applications.
 
 ---
 
@@ -45,35 +37,57 @@ PlanEasy operates as a flexible WebGIS environment accessible directly from a we
 | Module | Description |
 |---------|-------------|
 | **Frontend WebGIS** | Browser-based interface for map visualization, dashboards, and user interaction |
-| **Database Layer** | Cloud-hosted databases (e.g., Firebase, MongoDB) enabling real-time data access and collaboration |
+| **Database Layer** | Cloud-hosted databases (e.g. Firestore, MongoDB) enabling real-time data access and collaboration |
 | **Computation Engine** | Algorithms for routing, accessibility, and spatial analysis |
 | **API Layer** | REST/JSON interfaces for integration with external systems and automation pipelines |
 | **Dashboard / KPIs** | Visualization tools for mobility indicators, safety metrics, and planning outcomes |
 
-### 🔗 Related Projects
+Each module can operate independently or in conjunction with participatory modules such as the [**PlanEasy Crowdsourcing Framework**](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework), enabling full interoperability across research projects.
 
-- **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — example implementation of this data architecture. 
-  
+---
+
+## 🧠 Methodological References
+
+The PlanEasy Framework adheres to the **FAIR Data Principles** and **Open Science** best practices:
+
+| Principle | Description |
+|------------|-------------|
+| **Findable** | Each dataset and questionnaire has a unique identifier, metadata, and version history |
+| **Accessible** | Documentation and schemas are openly available under permissive licenses |
+| **Interoperable** | JSON-based data structures compatible with NoSQL and document databases |
+| **Reusable** | Metadata and standards ensure reproducibility across research contexts |
+
+Additionally, all participatory components comply with **GDPR (Article 89)** for scientific research, ensuring privacy-by-design through pseudonymization and data separation.
+
+---
+
+## 🔗 Related Projects
+
+- **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — applied research project on cycling safety and perception built on PlanEasy’s data architecture.  
+- **[PlanEasy Crowdsourcing Framework](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework)** — module for participatory data collection and survey integration.  
+
+---
+
+
+## 🧠 Citation and Use
+
+To cite PlanEasy in academic or technical work:
+
+> Gentile, G., & Bresciani Miristice, L. M. (2025).  
+> *PlanEasy WebGIS Platform.*  
+> Available at [https://github.com/planeasy-webgis-framework](https://github.com/planeasy-webgis-framework)
+
 ---
 
 ## 🧾 Registration
 
-🗂️ *Software registered at the Italian Public Register for Computer Programs (SIAE)*  
+🗂️ *Registered at the Italian Public Register for Computer Programs (SIAE)*  
 **Title:** *PlanEasy Web GIS Platform*  
 **Registration No.:** D000027315 / D000025877  
 **Date:** 15 July 2025  
 **Authors:** Prof. Guido Gentile, Dr. Lory Michelle Bresciani Miristice  
 **Language:** JavaScript  
 **Category:** Web application – GIS data analysis
-
----
-
-## 🧠 Citation and Use
-
-To cite PlanEasy in academic or technical work:
-
-> Gentile, G., & Bresciani Miristice, L. M. (2025). *PlanEasy WebGIS Platform.*  
-> Available at: [https://github.com/planeasy-webgis-framework/](https://github.com/planeasy-webgis-framework/)
 
 ---
 
@@ -91,4 +105,5 @@ You may share and adapt this material with appropriate credit.
 
 ---
 
-> ℹ️ This repository does **not** contain the source code of the platform, which is registered and maintained separately for research and licensing purposes.
+> ℹ️ This repository contains the **official documentation and methodological references** of the PlanEasy WebGIS Platform.  
+> The operational source code is registered and maintained separately for research and licensing purposes.
