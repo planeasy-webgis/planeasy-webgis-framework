@@ -13,15 +13,15 @@
 
 </div>
 
-**PlanEasy** is a modular and cloud-based **WebGIS platform** for spatial data analysis, visualization, and participatory research.  
-These guidelines provide the **official documentation, architecture overview, and methodological references** for projects and research activities based on the PlanEasy framework.
+**PlanEasy** is a modular and cloud-based **WebGIS framework** for spatial data analysis, visualization, and participatory research.  
+These guidelines provide the **official documentation, architectural overview, and methodological references** for projects and research activities based on the PlanEasy platform.
 
 ---
 
 ## 🧭 Overview
 
-PlanEasy facilitates the collection, management, and visualization of spatial and mobility data for scientific, institutional, and planning purposes.  
-It integrates mapping, analytics, and user-interaction components to support evidence-based decision making in areas such as:
+PlanEasy facilitates the **management, integration, and visualization** of spatial and mobility data for scientific, institutional, and planning purposes.  
+It combines mapping, analytics, and user-interaction components to support evidence-based decision-making in fields such as:
 
 - transport planning and accessibility analysis  
 - safety and accident mapping  
@@ -37,24 +37,26 @@ PlanEasy operates as a flexible WebGIS environment accessible directly from a we
 | Folder | Description |
 |---------|-------------| 
 | [docs/](https://github.com/planeasy-webgis/guidelines/blob/main/docs) | Technical guidelines, architecture documentation, and methodological notes |
-| [assets/](https://github.com/planeasy-webgis/guidelines/blob/main/assets) | Diagrams, figures, and visual materials used in the documentation |
-| [publications/](https://github.com/planeasy-webgis/guidelines/blob/main/publications) | Scientific papers, reports, and citations related to PlanEasy |
 
 This repository does **not** contain the source code of the platform,  
 which is registered and maintained separately for research and licensing purposes.
 
 ---
 
-## ⚙️ Main components of the PlanEasy platform
+## ⚙️ Main Components of the PlanEasy Platform
 
 | Module | Description |
 |---------|-------------|
-| **Frontend WebGIS** | Browser-based interface for map visualization, dashboards, and survey integration |
-| **Database Layer** | Cloud-hosted databases (e.g., Firebase, MongoDB) for real-time collaboration |
-| **Computation Engine** | Algorithms for routing, accessibility, and geospatial analysis |
-| **API Layer** | REST/JSON interfaces for data integration and automation |
-| **Dashboard / KPIs** | Visualization tools for mobility indicators, safety metrics, and planning results |
+| **Frontend WebGIS** | Browser-based interface for map visualization, dashboards, and user interaction |
+| **Database Layer** | Cloud-hosted databases (e.g., Firebase, MongoDB) enabling real-time data access and collaboration |
+| **Computation Engine** | Algorithms for routing, accessibility, and spatial analysis |
+| **API Layer** | REST/JSON interfaces for integration with external systems and automation pipelines |
+| **Dashboard / KPIs** | Visualization tools for mobility indicators, safety metrics, and planning outcomes |
 
+### 🔗 Related Projects
+
+- **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — example implementation of this data architecture. 
+  
 ---
 
 ## 🧾 Registration
@@ -69,37 +71,25 @@ which is registered and maintained separately for research and licensing purpose
 
 ---
 
-## 🧠 Citation and use
+## 🧠 Citation and Use
 
 To cite PlanEasy in academic or technical work:
 
 > Gentile, G., & Bresciani Miristice, L. M. (2025). *PlanEasy WebGIS Platform.*  
-> Available at: [https://github.com/planeasy-webgis/](https://github.com/planeasy-webgis/)
+> Available at: [https://github.com/planeasy-webgis-framework/](https://github.com/planeasy-webgis-framework/)
 
 ---
 
-## 🔖 License
+## 📄 License
 
-All materials in this repository are released under the  
-**Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+[**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) —  
+You may share and adapt this material with appropriate credit.
 
-You are free to share and adapt the documentation — even for commercial purposes —  
-provided that proper credit is given to the authors.
+---
 
-📄 Full license text: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+## 📬 Contact
 
-© 2025 Guido Gentile & Lory Michelle Bresciani Miristice
+📧 **Lory Michelle Bresciani Miristice**  
+[lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)
 
-
-## 📚 Documentation
-
-- [Unified Data Architecture for Crowdsourced Responses](docs/DATA_ARCHITECTURE.md)
-- [Privacy and Consent Guidelines](docs/PRIVACY_GUIDELINES.md)
-
-### 🔗 Related Projects
-
-- **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — implementation example of this data architecture.
-- **[wemo-questionnaires](https://github.com/movingprojects/wemo-questionnaires)** — public repository hosting questionnaire schemas and versions used by PlanEasy projects.
-
-
-
+---
