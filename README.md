@@ -38,9 +38,6 @@ PlanEasy operates as a flexible WebGIS environment accessible directly from a we
 |---------|-------------| 
 | [docs/](./docs/README.md) | Technical guidelines and methodological notes |
 
-This repository does **not** contain the source code of the platform,  
-which is registered and maintained separately for research and licensing purposes.
-
 ---
 
 ## ⚙️ Main Components of the PlanEasy Platform
@@ -93,3 +90,5 @@ You may share and adapt this material with appropriate credit.
 [lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)
 
 ---
+
+> ℹ️ This repository does **not** contain the source code of the platform, which is registered and maintained separately for research and licensing purposes.
