@@ -6,7 +6,7 @@
       <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
     </td>
     <td style="border:1px solid transparent; vertical-align: middle;">
-      <h1 style="margin: 0; padding: 0;">PlanEasy WebGIS Guidelines</h1>
+      <h1 style="margin: 0; padding: 0;">PlanEasy WebGIS Framework — Guidelines</h1>
     </td>
   </tr>
 </table>
@@ -36,7 +36,7 @@ PlanEasy operates as a flexible WebGIS environment accessible directly from a we
 
 | Folder | Description |
 |---------|-------------| 
-| [docs/](https://github.com/planeasy-webgis/guidelines/blob/main/docs) | Technical guidelines, architecture documentation, and methodological notes |
+| [docs/](./docs/README.md) | Technical guidelines and methodological notes |
 
 This repository does **not** contain the source code of the platform,  
 which is registered and maintained separately for research and licensing purposes.
