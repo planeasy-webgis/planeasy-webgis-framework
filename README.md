@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
   <tr style="border:1px solid transparent;">
@@ -6,7 +6,8 @@
       <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
     </td>
     <td style="border:1px solid transparent; vertical-align: middle;">
-      <h1 style="margin: 0; padding: 0;">PlanEasy WebGIS Framework — Guidelines</h1>
+      <h1 style="margin: 0; padding: 0;">PlanEasy WebGIS Framework</h1>
+      <p><strong>Cloud-based Platform for Land-use, Mobility, and Transport Planning</strong></p>
     </td>
   </tr>
 </table>
@@ -15,20 +16,45 @@
 
 ---
 
-## 🧭 Overview
+## 🧭 Overview and Capabilities
 
-**PlanEasy** facilitates the **management, integration, and visualization** of spatial and mobility data for scientific, institutional, and planning purposes.  
-It combines mapping, analytics, and user-interaction components to support evidence-based decision-making in fields such as:
+**PlanEasy WebGIS Framework** is a **cloud-based platform** designed for **land-use and transport planning**, 
+enabling researchers and institutions to **visualize, integrate, and analyze spatial and mobility data** directly in the browser.  
+
+It integrates mapping, analytics, and user-interaction components to support **evidence-based decision-making** in domains such as:
 
 - transport planning and accessibility analysis  
 - safety and accident mapping  
 - mobility behaviour and survey integration  
 - environmental and socio-demographic studies  
 
-PlanEasy operates as a **flexible WebGIS environment** accessible directly from any web browser, combining **interactive maps**, **real-time databases**, and **analytical dashboards** to provide an end-to-end system for spatial and participatory research.
+PlanEasy operates as a **flexible, browser-based WebGIS environment**, combining **interactive maps**, **real-time databases**, and **analytical dashboards** to deliver an end-to-end system for spatial and participatory research.
 
 > These guidelines describe the **core architecture**, **data standards**, and **ethical principles** underpinning PlanEasy.  
 > They are intended for developers, researchers, and institutions seeking to deploy or replicate PlanEasy-based applications.
+
+---
+
+### 🔗 Live Dashboard
+
+👉 Access PlanEasy here:  
+**[https://planeasy-webgis.web.app/](https://planeasy-webgis.web.app/)**  
+*(No installation required — the platform runs entirely online.)*
+
+---
+
+### 🧰 What You Can Do with PlanEasy
+
+With the **PlanEasy** platform you can:
+
+- 🗺️ Load and explore spatial data (Shapefile, GeoJSON, OSM, CSV, GTFS)  
+- 🚍 Import transport networks and run analyses (shortest path, routing, accessibility)  
+- 📊 Manage and filter large datasets through responsive tables  
+- 📈 Visualize spatial KPIs and transport indicators interactively  
+- 🧠 Integrate web-based surveys for behavioural and perception data  
+- 🖱️ Interact dynamically with maps, layers, and dashboards directly in your browser  
+
+PlanEasy is optimized for both **research** and **institutional** use, providing a ready-to-use environment for **mobility**, **safety**, and **land-use analysis**.
 
 ---
 
@@ -42,36 +68,41 @@ PlanEasy operates as a **flexible WebGIS environment** accessible directly from 
 | **API Layer** | REST/JSON interfaces for integration with external systems and automation pipelines |
 | **Dashboard / KPIs** | Visualization tools for mobility indicators, safety metrics, and planning outcomes |
 
-Each module can operate independently or in conjunction with participatory modules such as the [**PlanEasy Crowdsourcing Framework**](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework), enabling full interoperability across research projects.
+Each module can operate independently or in conjunction with participatory components such as the [**PlanEasy Crowdsourcing Framework**](https://github.com/planeasy/planeasy-crowdsourcing-framework),  
+enabling full interoperability across research projects.
 
 ---
 
-## 🧠 Methodological References
+## 🧪 Example Applications
 
-The PlanEasy Framework adheres to the **FAIR Data Principles** and **Open Science** best practices:
+PlanEasy has been successfully applied in multiple research and planning contexts:
 
-| Principle | Description |
-|------------|-------------|
-| **Findable** | Each dataset and questionnaire has a unique identifier, metadata, and version history |
-| **Accessible** | Documentation and schemas are openly available under permissive licenses |
-| **Interoperable** | JSON-based data structures compatible with NoSQL and document databases |
-| **Reusable** | Metadata and standards ensure reproducibility across research contexts |
+| Application | Description |
+|--------------|--------------|
+| **Public Transport Demand Estimation for Large Events** | Integration of tourist accommodations, attractions, and GTFS data to estimate additional public transport demand during the Jubilee event in Rome. |
+| **[Road Safety Analysis](https://road-safety.wemolab.eu/)** | Interactive visualization and filtering of accident datasets, supporting safety planning and risk assessment. |
+| **[Accessibility Studies](https://reachability.wemolab.eu/)** | Evaluation of travel times and accessibility to schools, workplaces, and services via public transport. |
+| **[Multilingual Surveys](https://questionnaire-builder.wemolab.eu/)** | Integration of web-based surveys for collecting mobility and perception data (e.g., perceived safety, mode choice). |
 
-Additionally, all participatory components comply with **GDPR (Article 89)** for scientific research, ensuring privacy-by-design through pseudonymization and data separation.
+> Demo dashboards and datasets will be linked here as soon as they are released.
 
 ---
 
 ## 🔗 Related Projects
 
-- **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — applied research project on cycling safety and perception built on PlanEasy’s data architecture.  
-- **[PlanEasy Crowdsourcing Framework](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework)** — module for participatory data collection and survey integration.  
+- **[PlanEasy Crowdsourcing Framework](https://github.com/planeasy/planeasy-crowdsourcing-framework)** — module for participatory data collection and citizen-science integration.  
+- **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — applied research project on cycling safety and perception based on PlanEasy’s data model.  
 
 ---
 
+## 👩‍🔬 Authors
 
-## 🧠 Citation and Use
+- **Prof. Guido Gentile**  
+- **Dr. Lory Michelle Bresciani Miristice**
 
-To cite PlanEasy in academic or technical work:
+---
+
+## 🧠 Citation
 
 > Gentile, G., & Bresciani Miristice, L. M. (2025).  
 > *PlanEasy WebGIS Platform.*  
@@ -91,16 +122,13 @@ To cite PlanEasy in academic or technical work:
 
 ---
 
-## 📄 License
+## 📄 License and Contact
 
-[**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) —  
-You may share and adapt this material with appropriate credit.
+**License:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by/4.0/) —  
+You may share and adapt this material with appropriate credit for non-commercial use.
 
----
-
-## 📬 Contact
-
-📧 **Lory Michelle Bresciani Miristice**  
+📧 **Contact:**  
+**Dr. Lory Michelle Bresciani Miristice**  
 [lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)
 
 ---
