@@ -68,7 +68,7 @@ PlanEasy is optimized for both **research** and **institutional** use, providing
 | **API Layer** | REST/JSON interfaces for integration with external systems and automation pipelines |
 | **Dashboard / KPIs** | Visualization tools for mobility indicators, safety metrics, and planning outcomes |
 
-Each module can operate independently or in conjunction with participatory components such as the [**PlanEasy Crowdsourcing Framework**](https://github.com/planeasy/planeasy-crowdsourcing-framework),  
+Each module can operate independently or in conjunction with participatory components such as the [**PlanEasy Crowdsourcing Framework**](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework),  
 enabling full interoperability across research projects.
 
 ---
@@ -90,7 +90,7 @@ PlanEasy has been successfully applied in multiple research and planning context
 
 ## 🔗 Related Projects
 
-- **[PlanEasy Crowdsourcing Framework](https://github.com/planeasy/planeasy-crowdsourcing-framework)** — module for participatory data collection and citizen-science integration.  
+- **[PlanEasy Crowdsourcing Framework](https://github.com/planeasy-webgis/planeasy-crowdsourcing-framework)** — module for participatory data collection and citizen-science integration.  
 - **[theBIKEnet](https://github.com/movingprojects/thebikenet)** — applied research project on cycling safety and perception based on PlanEasy’s data model.  
 
 ---
