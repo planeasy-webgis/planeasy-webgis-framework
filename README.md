@@ -106,7 +106,7 @@ PlanEasy has been successfully applied in multiple research and planning context
 
 > Gentile, G., & Bresciani Miristice, L. M. (2025).  
 > *PlanEasy WebGIS Platform.*  
-> Available at [https://github.com/planeasy-webgis-framework](https://github.com/planeasy-webgis-framework)
+> Available at [https://github.com/planeasy-webgis/planeasy-webgis-framework](https://github.com/planeasy-webgis/planeasy-webgis-framework)
 
 ---
 
