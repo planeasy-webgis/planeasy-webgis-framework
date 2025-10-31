@@ -1,17 +1,17 @@
+#
 <div align="left">
-
-<table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
-  <tr style="border:1px solid transparent;">
-    <td style="border:1px solid transparent; vertical-align: middle; padding-right: 16px;">
-      <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
-    </td>
-    <td style="border:1px solid transparent; vertical-align: middle;">
-      <h1 style="margin: 0; padding: 0;">PlanEasy WebGIS Framework</h1>
-      <p><strong>Cloud-based Platform for Land-use, Mobility, and Transport Planning</strong></p>
-    </td>
-  </tr>
-</table>
-
+<br/>
+  <table border="0" cellpadding="0" cellspacing="0" style="border:1px solid transparent;">
+    <tr style="border:1px solid transparent;">
+      <td style="border:1px solid transparent; vertical-align: middle; padding-right: 16px;">
+        <img src="https://github.com/planeasy-webgis.png" width="80" alt="PlanEasy logo">
+      </td>
+      <td style="border:1px solid transparent; vertical-align: middle;">
+        <h1 style="margin: 0; padding: 0;">PlanEasy WebGIS Framework</h1>
+        <p><strong>Cloud-based Platform for Land-use, Mobility, and Transport Planning</strong></p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
