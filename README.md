@@ -130,7 +130,7 @@ You may share and adapt this material with appropriate credit for non-commercial
 
 📧 **Contact:**  
 **Dr. Lory Michelle Bresciani Miristice**  
-[lorymichellebrescianimiristice@uniroma1.it](mailto:lorymichellebrescianimiristice@uniroma1.it)
+[lorymichelle.brescianimiristice@uniroma1.it](mailto:lorymichelle.brescianimiristice@uniroma1.it)
 
 ---
 
